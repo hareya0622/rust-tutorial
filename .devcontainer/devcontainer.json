@@ -10,5 +10,6 @@
 		"tamasfe.even-better-toml"
 	]
     }
-  }
+  },
+	"onCreateCommand": "/bin/sh -c 'chmod +x .devcontainer/onCreateCommand.sh && .devcontainer/onCreateCommand.sh'"
 }
