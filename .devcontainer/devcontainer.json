@@ -1,0 +1,14 @@
+{
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "rust_devcontainer",
+  "workspaceFolder": "/workspace",
+	"customizations": {
+    "vscode": {
+      "extensions": [
+		"rust-lang.rust-analyzer",
+		"serayuzgur.crates",
+		"tamasfe.even-better-toml"
+	]
+    }
+  }
+}
