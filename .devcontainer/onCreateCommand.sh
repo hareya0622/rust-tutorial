@@ -4,9 +4,11 @@
 # https://github.blog/2022-04-12-git-security-vulnerability-announced/ 
 git config --global --add safe.directory /workspace
 
+# sudo chsh -s /bin/bash rust_learner
+
 # tab補完が動作するようにinstall
-apt update
-apt install -y bash-completion
+sudo apt update
+sudo apt install -y bash-completion
 
 # gitコマンド補完用スクリプトのダウンロード
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O /etc/bash_completion.d/git
@@ -19,3 +21,4 @@ echo 'parse_git_branch() {
 }
 
 export PS1="\u@\h \w\$(parse_git_branch) \$ "' >> ~/.bashrc
+

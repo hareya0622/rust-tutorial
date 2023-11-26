@@ -11,5 +11,7 @@
 	]
     }
   },
-	"onCreateCommand": "/bin/sh -c 'chmod +x .devcontainer/onCreateCommand.sh && .devcontainer/onCreateCommand.sh'"
+	"remoteUser": "rust_learner",
+	"onCreateCommand": "/bin/sh -c 'chmod +x .devcontainer/onCreateCommand.sh && .devcontainer/onCreateCommand.sh'",
+	// "onCreateCommand": "/workspace/.devcontainer/onCreateCommand.sh"
 }
