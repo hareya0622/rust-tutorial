@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# 以下のセキュリティ対策への対策
-# https://github.blog/2022-04-12-git-security-vulnerability-announced/ 
-git config --global --add safe.directory /workspace
-
 # sudo chsh -s /bin/bash rust_learner
 
 # tab補完が動作するようにinstall
