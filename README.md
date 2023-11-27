@@ -56,14 +56,14 @@ info: The currently active `rustc` version is `rustc 1.74.0 (79e9716c9 2023-11-1
 ### 実行環境
 以下の環境で動作確認済みです。
 
-### ホストPC
+#### ホストPC
 | system | バージョン                                         |
 | ------ | -------------------------------------------------- |
 | OS     | Windows 10 Pro                                     |
 | CPU    | Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz  2.70 GHz |
 | RAM    | 8.00GB                                             |
 
-### WSL
+#### WSL
 ```bash
 $ cat /etc/os-release
 NAME="Ubuntu"
@@ -79,7 +79,7 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 VERSION_CODENAME=focal
 UBUNTU_CODENAME=focal
 ```
-### Docker
+#### Docker
 ```powershell
 PS C:\Users> docker version
 Client:
