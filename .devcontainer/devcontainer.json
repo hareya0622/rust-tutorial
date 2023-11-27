@@ -13,5 +13,6 @@
   },
 	"remoteUser": "rust_learner",
 	"onCreateCommand": "/bin/sh -c 'chmod +x .devcontainer/onCreateCommand.sh && .devcontainer/onCreateCommand.sh'",
-	// "onCreateCommand": "/workspace/.devcontainer/onCreateCommand.sh"
+	
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
