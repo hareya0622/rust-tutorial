@@ -1,5 +1,4 @@
 [workspace]
-# rust-analyzerを効かせたい場合作成したcargo projectsをmembersに追記する必要がある
 members = [
 	"./projects/hello_cargo"
 ]
